@@ -37,6 +37,7 @@ from utils.utils_fit import fit_one_epoch
    如果只是训练了几个Step是不会保存的，Epoch和Step的概念要捋清楚一下。
 '''
 if __name__ == "__main__":
+    Init_Epoch          = where?
     #---------------------------------#
     #   Cuda    是否使用Cuda
     #           没有GPU可以设置成False
@@ -151,7 +152,6 @@ if __name__ == "__main__":
     #   Freeze_batch_size   模型冻结训练的batch_size
     #                       (当Freeze_Train=False时失效)
     #------------------------------------------------------------------#
-    Init_Epoch          = where?
     Freeze_Epoch        = 50
     Freeze_batch_size   = 8
     #------------------------------------------------------------------#
